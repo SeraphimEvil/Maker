@@ -1,0 +1,202 @@
+body {
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	font-weight: 100;
+	color: #ffffff;
+
+	background-color: #191e3f;
+}
+
+.container {
+	width: 1170px; 
+	margin: 0 auto;
+}
+
+
+/* шапка сайта */
+.header {
+	display: flex;
+	min-height: 1185px;
+	background-image: url('../img/mountains_header.png');
+}
+
+.header__navigation {
+	position: relative;
+}
+
+.navigation__img {
+	width: 127px;
+	height: 78px;
+}
+
+.navigation__logo {
+	position: absolute;
+	top: 84px;
+	left: 50%;
+
+	margin-left: -70px;
+}
+
+.burger-menu {
+	position: absolute;
+
+	right: -54px;
+	top: 113px;
+}
+
+.slogan__text {
+	font-size: 76.78px;
+	line-height: 88.44px;
+	letter-spacing: -0.022em;
+	margin-top: 480px;
+	margin-left: 88px;
+}
+
+
+/* основной контент */
+
+/* 01 */
+.mission {
+	display: flex;
+
+	min-height: 1000px;
+	background-image: url('../img/mountains.png');
+	background-repeat: no-repeat;
+	background-position: 37px 0px;
+
+	position: relative;
+}
+
+.mission::before {
+	position: absolute;
+	top: 160px;
+	left: -64px;
+
+	content: '01';
+
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 286px;
+	font-weight: 900;
+
+	color: rgba(255, 255, 255, 0.01);
+
+	letter-spacing: -0.06em;
+}
+
+.mission::after {
+	position: absolute;
+	top: 317px;
+	left: 19px;
+
+	content: 'mission';
+
+	font-size: 34.23px;
+
+	transform: rotate(-90deg);
+}
+
+.mission__text {
+	position: absolute;
+	top: 248px;
+	right: -1px;
+
+	width: 475px;
+}
+
+/* 02 */
+
+.main {
+	background: #191e3f url('../img/projects background.png');
+	background-repeat: no-repeat;
+	background-position: 0 844px;
+	position: relative;
+}
+
+
+.main.filter {
+	background-blend-mode: color-dodge;
+}
+
+.projects {
+	position: relative;
+	min-height: 1000px;
+}
+
+.main::before {
+	position: absolute;
+	top: 883px;
+	left: 98px;
+	content: '';
+	background: url('../img/R.png');
+	background-repeat: no-repeat;
+	height: 1234px;
+	width: 1040px
+}
+
+.projects::before {
+	position: absolute;
+	top: -73px;
+	right: -9px;
+
+	content: '02';
+
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 286px;
+	font-weight: 900;
+
+	color: rgba(255, 255, 255, 0.01);
+
+
+	letter-spacing: -0.06em;
+}
+
+.projects::after {
+	position: absolute;
+	top: 80px;
+	right: 52px;
+
+	content: 'projects';
+
+	font-size: 34.23px;
+
+	transform: rotate(-90deg);
+}
+
+.project__items {
+	width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+
+	position: relative;
+	top: 167px;
+}
+
+.projects__item {	
+	height: 83px;
+	margin-left: 31px;
+	margin-right: 55px;
+	margin-bottom: 97px;
+}
+
+.projects__item:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.projects__item:nth-child(5) {
+	margin-left: 65px;
+}
+
+.projects__item:nth-child(3) {
+	position: relative;
+	top: -6px;
+	left: -5px;
+}
+
+.projects__item:nth-child(6) {
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
