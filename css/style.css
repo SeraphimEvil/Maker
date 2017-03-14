@@ -10,6 +10,14 @@ body {
 	background-color: #191e3f;
 }
 
+a {
+	color: #fff;
+}
+
+h2 {
+	font-weight: 100;
+}
+
 .container {
 	width: 1170px; 
 	margin: 0 auto;
@@ -113,6 +121,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: 0 844px;
 	position: relative;
+
+	min-height: 4466px;
 }
 
 
@@ -122,7 +132,7 @@ body {
 
 .projects {
 	position: relative;
-	min-height: 1000px;
+	min-height: 1250px;
 }
 
 .main::before {
@@ -199,4 +209,255 @@ body {
 	position: relative;
 	top: 5px;
 	left: 5px;
+}
+
+
+/* 03 */
+
+.team {
+	position: relative;
+	min-height: 1000px;
+} 
+
+.team__block {
+	width: 330px;
+}
+
+.team__name {
+	font-size: 38px;
+	margin: 0;
+	margin-bottom: 13px;
+	position: relative;
+}
+
+.team__name::before {
+	content: '';
+	position: absolute;
+	height: 5px;
+	width: 56px;
+	background-color: #fff;
+	top: -30px;
+	left: 2px;
+}
+
+.team__job {
+	display: inline-block;
+	font-size: 19px;
+	margin-left: 1px;
+	margin-bottom: 29px;
+
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.team__desc {
+	font-size: 15px;
+	margin-left: 4px;
+}
+
+.team::before {
+	position: absolute;
+	top: -100px;
+	left: -50px;
+
+	content: '03';
+
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 286px;
+	font-weight: 900;
+
+	color: rgba(255, 255, 255, 0.01);
+
+	letter-spacing: -0.01em;
+}
+
+.team::after {
+	position: absolute;
+	top: 55px;
+	left: 52px;
+
+	content: 'team';
+
+	font-size: 34.23px;
+
+	transform: rotate(-90deg);
+}
+
+.photo1 {
+}
+
+.photo1__img {
+	position: absolute;
+	right: -40px;
+}
+
+.photo1__text {
+	position: absolute;
+	left: 244px;
+	top: 342px;
+}
+
+.photo2__img {
+	position: absolute;
+	top: 809px;
+	left: -144px;
+}
+
+.photo2__text {
+	position: absolute;
+	top: 1049px;
+	left: 334px;
+}
+
+.photo3__img {
+	position: absolute;
+	right: -137px;
+	top: 941px;
+}
+
+.photo3__text {
+	position: absolute;
+	right: 174px;
+	top: 1218px;
+}
+
+.photo4__img {
+	position: absolute;
+	top: 1376px;
+	left: -16px;
+}
+
+.photo4__text {
+	position: absolute;
+	top: 1653px;
+	left: 20px;
+}
+
+.photo5__img {
+	position: absolute;
+	right: -54px;
+	top: 1604px;
+}
+
+.photo5__text {
+	position: absolute;
+	right: -103px;
+	top: 1880px;
+
+	width: 360px;
+}
+
+
+/* футер */
+
+
+.footer {
+	background: #191e3f url('../img/events background.png');
+	background-repeat: no-repeat;
+	background-position: 0 149px;
+	position: relative;
+
+	min-height: 1337px;
+}
+
+
+.footer.filter {
+	background-blend-mode: color-dodge;
+}
+
+
+.footer::before {
+	position: absolute;
+	top: 0px;
+	right: 18px;
+	content: '';
+	background: url('../img/E.png');
+	background-repeat: no-repeat;
+	height: 1234px;
+	width: 1040px;
+	opacity: 0.7;
+}
+
+
+.event::before {
+	position: absolute;
+	top: -55px;
+	right: 828px;
+
+	content: '04';
+
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 286px;
+	font-weight: 900;
+
+	color: rgba(255, 255, 255, 0.01);
+	letter-spacing: -0.02em;
+}
+
+.event::after {
+	position: absolute;
+	top: 102px;
+	right: 927px;
+
+	content: 'event';
+
+	font-size: 34.23px;
+
+	transform: rotate(-90deg);
+}
+
+.event__block {
+	width: 475px;
+	position: relative;
+	top: 360px;
+	left: 78px;
+}
+
+.event__header {
+	font-size: 72.16px;
+	letter-spacing: -0.02em;
+	margin-bottom: 39px;
+	padding-left: 2px;
+}
+
+.event__text {
+	font-size: 19px;
+}
+
+
+/* футер низ */
+
+.footer__bottom {
+	font-size: 15px;
+	line-height: 36px;
+	width: 275px;
+
+	position: relative;
+	top: 750px;
+	left: 500px;
+}
+
+.footer__logo {
+	position: absolute;
+	left: 41px;
+	top: -5px;
+}
+
+.footer__links {
+	position: absolute;
+	top: 77px;
+	left: -44px;
+}
+
+.footer__link {
+	margin-right: 20px;
+}
+
+.footer__link:nth-child(5) {
+	margin-right: 0px;
+}
+
+.footer__copyright {
+	position: absolute;
+	top: 112px;
+	left: -16px;
 }
